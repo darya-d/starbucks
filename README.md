@@ -1,2 +1,1 @@
-# starbucks
-Starbucks Landing Page
+# Starbucks Landing Page - https://darya-d.github.io/starbucks/
