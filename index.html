@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks Landing Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <section>
+    <div class="circle">
+
+    </div>
+
+    <header class="header">
+      <a href="#">
+        <img class="header__logo" src="assets/img/logo.png" alt="logo">
+      </a>
+      <!-- Nav -->
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#">Menu</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#">What's new</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#">Contacts</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <div class="text-box">
+        <h2 class="text-box__title">It's not just Coffee<br> It's <span>Starbucks</span></h2>
+        <p class="text-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex quas iusto animi quos, suscipit sequi voluptatum tempora incidunt perferendis, repudiandae rerum quis quaerat nesciunt consequuntur id doloremque. Architecto, illo!</p>
+        <a class="text-box__link" href="#">Learn more</a>
+      </div>
+      <div class="img-box">
+        <img class="starbucks" src="assets/img/img1.png" alt="starbucks matcha white">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li class="thumb__item">
+        <img src="assets/img/thumb1.png" alt="starbucks matcha white" onclick="imgSlider('assets/img/img1.png');changeColor('#017143')">
+      </li>
+      <li class="thumb__item">
+        <img src="assets/img/thumb2.png" alt="starbucks latte pinky" onclick="imgSlider('assets/img/img2.png');changeColor('#eb7495')">
+      </li>
+      <li class="thumb__item">
+        <img src="assets/img/thumb3.png" alt="starbucks latte unicorn" onclick="imgSlider('assets/img/img3.png');changeColor('#d752b1')">
+      </li>
+    </ul>
+    <ul class="social">
+      <li class="social__item">
+        <a href="#"><img src="assets/img/facebook.png" alt=""></a>
+      </li>
+      <li class="social__item">
+        <a href="#"><img src="assets/img/twitter.png" alt=""></a>
+      </li>
+      <li class="social__item">
+        <a href="#"><img src="assets/img/instagram.png" alt=""></a>
+      </li>
+    </ul>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
